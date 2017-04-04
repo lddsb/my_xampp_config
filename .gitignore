@@ -1,0 +1,28 @@
+/*
+!.gitignore
+!README.md
+# 忽略文件夹中子文件夹的文件的规律如下
+!apache/
+apache/*
+# Apache配置文件
+!apache/conf/
+apache/conf/*
+!apache/conf/httpd.conf
+# vhost配置文件
+!apache/conf/extra/
+apache/conf/extra/*
+!apache/conf/extra/httpd-vhosts.conf
+# MySQL配置文件
+!mysql/
+mysql/*
+!mysql/bin/
+mysql/bin/*
+!mysql/bin/my.ini
+# PHP配置文件
+!php/
+php/*
+!php/php.ini
+# PHP新增拓展
+!php/ext/
+php/ext/*
+!php/ext/php_redis.dll
